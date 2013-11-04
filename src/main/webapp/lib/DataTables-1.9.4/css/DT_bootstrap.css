@@ -1,0 +1,72 @@
+
+div.dataTables_length{
+    float: left;
+    text-align: left;
+    margin-top:2px;
+    margin-bottom:0px;
+}
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+div.dataTables_length select {
+    margin-top:1px;
+	width: 70px;
+    height: 24px;
+}
+
+div.dataTables_filter{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+div.dataTables_filter label {
+    margin-top:1px;
+    margin-bottom:0px;
+}
+div.dataTables_filter input{
+      width: 150px;
+      height: 12px;
+    font-family:Consolas ;
+  }
+
+div.dataTables_wrapper table {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+div.dataTables_info {
+    padding-top: 8px;
+}
+div.dataTables_paginate {
+     float: right;
+    margin-top:1px;
+    margin-bottom:0px;
+ }
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+.sorting_asc {
+    background: url('../images/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+    background: url('../images/sort_desc.png') no-repeat center right;
+}
+
+.sorting {
+    background: url('../images/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc_disabled {
+    background: url('../images/sort_asc_disabled.png') no-repeat center right;
+}
+
+.sorting_desc_disabled {
+    background: url('../images/sort_desc_disabled.png') no-repeat center right;
+}
+table.display thead th:active,
+table.display thead td:active {
+    outline: none;
+}
